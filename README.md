@@ -1,4 +1,14 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next JS Portfolio Art Design Graphic 🔥
+
+## Images of The Website:
+
+![Next JS Portfolio Art Design Graphic](https://res.cloudinary.com/dfkzgupvj/image/upload/f_auto/q_auto/v1/artjob/luz6bcmaa6ennzukz6e1?_a=BAVAfVBy0)
+
+---
+
+# ⭐DO NOT FORGET TO STAR THIS REPO⭐
+
+---
 
 ## Getting Started
 
@@ -12,6 +22,15 @@ yarn dev
 pnpm dev
 # or
 bun dev
+```
+
+## Environment
+
+Create .env file on your root project and input your own environment
+
+```bash
+RESEND_API_KEY="....."
+FROM_EMAIL="....."
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.

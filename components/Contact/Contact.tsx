@@ -8,7 +8,6 @@ import { BsInstagram, BsGoogle, BsYoutube } from "react-icons/bs";
 import { Label } from "../ui/label";
 import { Input } from "../ui/input";
 import { Textarea } from "../ui/textarea";
-import { Button } from "../ui/button";
 
 const Contact = () => {
   const [emailSubmited, setEmailSubmitted] = useState(false);
@@ -48,15 +47,12 @@ const Contact = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 my-10 gap-5 mt-12 md:mt-24">
         <div className="col-span-1">
           <h5 className="text-mycolor-100 font-semibold mb-4 text-2xl">
-            Lets Connect
+            Let&apos;s Connect
           </h5>
           <p className="text-base text-white">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-            iste molestias nulla esse cum adipisci sint labore quasi id?
-            Officiis optio tenetur error, nesciunt mollitia dolore aut sed
-            obcaecati aliquam delectus atque quisquam excepturi aperiam eum
-            maxime sit sint beatae exercitationem iure ipsa aliquid est nemo.
-            Qui nihil inventore fugit.
+            I am currently looking for new opportunities, my inbox is always
+            open. Whether you have a question or just want to say hi, I will try
+            my best to get back to you.!
           </p>
 
           <div className="flex flex-row gap-4 mt-5">
@@ -70,9 +66,10 @@ const Contact = () => {
           {emailSubmited ? (
             <Alert className="bg-green-600 text-white">
               <Terminal className="h-4 w-4" />
-              <AlertTitle>Heads up!</AlertTitle>
+              <AlertTitle>Your message has been successfully sent!</AlertTitle>
               <AlertDescription>
-                You can add components to your app using the cli.
+                I will immediately reply to your message at the first
+                opportunity. Thank you..!
               </AlertDescription>
             </Alert>
           ) : (
@@ -109,7 +106,12 @@ const Contact = () => {
                 />
               </div>
 
-              <Button type="submit">Send Message</Button>
+              <button
+                type="submit"
+                className="bg-lime-500 hover:bg-lime-600 text-white font-medium py-2.5 px-5 rounded-lg w-full"
+              >
+                Send Message
+              </button>
             </form>
           )}
         </div>
