@@ -59,7 +59,7 @@ const Hero = () => {
             </Link>
 
             <Link
-              href="/"
+              href="/CV.pdf"
               className="px-1 inline-block 
                     py-1 w-full md:w-fit rounded-full bg-gradient-to-br
                     from-mycolor-200 to-mycolor-100 text-mycolor-700 text-center mt-3"
